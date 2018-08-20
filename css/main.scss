@@ -188,7 +188,7 @@ h4 {
 
 .particles-small {
     width: 100vw;
-    min-height: 130px;
+    min-height: 117px;
     .particles-js-canvas-el {
         width: 100vw !important;
         height: 160px !important;
@@ -198,7 +198,7 @@ h4 {
 @media only screen and (min-width: 347px) {
     .particles-small {
         .particles-js-canvas-el {
-            height: 117px !important;
+            height: 160px !important;
         }
     }
 }
