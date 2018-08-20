@@ -93,7 +93,7 @@ RockBox also has a lot of new features that are not available in the stock OS an
 
 ## Conclusion
 
-The original HDD in the iPod uses 3.3V whereas the SSD uses 5V. Playback works great but I had issues copying songs onto the iPod: The load of hitting the SSD would drain the iPod's battery completely before the songs had copied. I remedied this by preloading the bulk of my music using an mSATA to USB adapter, other workarounds include copying batches of songs and waiting for the battery to recharge. Another option would be to go with a ZIF to SD card adapter as they use less power.
+The original HDD in the iPod draws 0.5A whereas the SSD draws 1.9A. Playback works great but I had issues copying songs onto the iPod: The load of hitting the SSD would drain the iPod's battery completely before the songs had copied. I remedied this by preloading the bulk of my music using an mSATA to USB adapter, other workarounds include copying batches of songs and waiting for the battery to recharge. Another option would be to go with a ZIF to SD card adapter as they use less power.
 
 I also had problems with the battery connection on the motherboard breaking off after a few connection cycles. It was easy to find a replacement online but I found it difficult to solder on due to how small it was.
 
