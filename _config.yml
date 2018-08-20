@@ -1,0 +1,18 @@
+# Site settings
+title: Rosh Beedassee
+description: DevOps Engineer
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+url: "beta.beedassee.com" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Rosh Beedassee
+user_subtitle: DevOps Engineer
+user_description: Hi, I am Rosh, a recent Computer Science graduate. I'm drawn to understanding how things work and finding effective solutions to problems. I'm Interested in keeping up to date with the latest technologies. I'm a DevOps engineer. I spend my day creating the glue which holds together other pieces of software. I like to use Java, Python and Javascript and GCP.
+email: rosh@beedassee.com
+twitter_username: roshbeed
+github_username:  roshbeed
+linkedin_username:  roshbeed
+
+sass:
+  sass_dir: css
+  style: compressed
