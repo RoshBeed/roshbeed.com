@@ -7,8 +7,7 @@ tags: [ipod, mod, rockbox, linux]
 image: /img/1TB-iPod-Classic-Mod/1-The1TBiPodguide.jpg
 image_alt: 1TB iPod Classic Mod
 ---
-
-With the maximum size of an iPod classic at 160GB. I found myself quickly filling up the available storage with lossless FLAC files. I sought for a way to increase the storage capacity. In this post I will go through the steps I took to upgrade my iPod to 1TB. I like to call it 'The TeraPod'.
+With the maximum size of an iPod classic at 160GB, I found myself quickly filling up the available storage with lossless FLAC files. I sought for a way to increase the storage capacity. In this post, I will go through the steps I took to upgrade my iPod to 1TB. I like to call it ‘The TeraPod’.
 
 In order to complete this you will need a few things:
 
