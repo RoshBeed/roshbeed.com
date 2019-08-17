@@ -12,18 +12,31 @@ $cut: 768px;
 // Common
 
 @import url( 'https://fonts.googleapis.com/css?family=Montserrat');
+.job {
+  font-size: 25px;
+  padding: 10 0 0;
+  margin: 0;
+
+}
+
+
+.date {
+  font-style: italic;
+  font-size: 15px;
+  margin: 0px;
+}
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  margin-left: 20;
+  padding-left: 20px;
+  padding: 1;
 }
 
 body {
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     background: $main;
     overflow-x: hidden;
+    align: left;
 }
 
 h1 {
@@ -39,11 +52,12 @@ h2 {
     display: block;
     line-height: 1;
     padding: 5px 0;
-    margin: 70px 0 10px;
+    margin: 25px 0 10px;
 }
 
 h3 {
     font-size: 30px;
+    margin: 10px 0 10px;
 }
 
 h4 {
@@ -315,9 +329,6 @@ h4 {
     }
 }
 
-.about {
-    text-align: center;
-}
 
 .skills {
     .skill {
@@ -369,7 +380,6 @@ h4 {
             margin: 0;
             overflow: hidden;
             padding: 0;
-
             li {
                 float: left;
                 background: #eee;
@@ -377,7 +387,7 @@ h4 {
                 color: #999;
                 height: 26px;
                 line-height: 26px;
-                padding: 3px 10px;
+                padding: 10px 10px;
                 margin: 5px;
                 position: relative;
             }
