@@ -13,7 +13,7 @@ $cut: 768px;
 
 @import url( 'https://fonts.googleapis.com/css?family=Montserrat');
 .job {
-  font-size: 25px;
+  font-size: 20px;
   padding: 10 0 0;
   margin: 0;
 
@@ -35,7 +35,7 @@ ul {
 pre {
 	font-size: 15px;
 	background:#E6E8EA;
-	padding:10px;
+	padding:7px;
 	border-radius:5px;
 
 }
@@ -53,23 +53,27 @@ h1 {
     display: block;
     line-height: 1;
     letter-spacing: -.1rem;
+    margin: 16px 0;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 25px;
     display: block;
     line-height: 1;
-    padding: 5px 0;
-    margin: 25px 0 10px;
+    padding:  0;
+    margin: 32px 0 8px;
 }
 
 h3 {
-    font-size: 30px;
-    margin: 10px 0 10px;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 32px 0 16px;
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 32px 0 0px;
 }
 
 .profile {
@@ -412,7 +416,7 @@ h4 {
     position: absolute;
 
     h1 {
-        margin-left: 33.5px;
+        margin: 32px;
     }
 }
 
