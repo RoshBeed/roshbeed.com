@@ -48,12 +48,12 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 37px;
     font-weight: 300;
     display: block;
     line-height: 1;
     letter-spacing: -.1rem;
-    margin: 16px 0;
+    margin: 8px 0 8px 0px;
 }
 
 h2 {
@@ -76,6 +76,14 @@ h4 {
     margin: 32px 0 0px;
 }
 
+.small-profile {
+	float: left;
+	width: 84px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+        margin-left: 8px;
+        margin-top: 8px;
+}
 .profile {
 	width: 70%;
 	border-radius: 50%;
@@ -220,7 +228,7 @@ h4 {
 
 .particles-small {
     width: 100vw;
-    min-height: 117px;
+    height: 110px;
     .particles-js-canvas-el {
         width: 100vw !important;
         height: 160px !important;
@@ -242,13 +250,12 @@ h4 {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: 0 auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
     .site-title {
         @media only screen and (min-width:$cut) {
-            margin: 0;
+    	    margin: 0 auto;
             font-size: 100px;
         }
     }
@@ -416,7 +423,9 @@ h4 {
     position: absolute;
 
     h1 {
-        margin: 32px;
+	width: 150px;
+        margin-top: 16px;
+	margin-left: 116px;
     }
 }
 
