@@ -33,18 +33,27 @@ ul {
 }
 
 pre {
+	white-space: pre-line;
 	font-size: 15px;
 	background:#E6E8EA;
 	padding:7px;
 	border-radius:5px;
+	 overflow-wrap: break-word;
 
 }
 
+code {
+	 overflow-wrap: break-word;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     background: $main;
-    overflow-x: hidden;
-    align: left;
+    margin: auto;
+    padding: 0;
+}
+html,body {
+  overflow-x:hidden;
+
 }
 
 h1 {
@@ -53,11 +62,11 @@ h1 {
     display: block;
     line-height: 1;
     letter-spacing: -.1rem;
-    margin: 8px 0 8px 0px;
+    margin: 32px 0px;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     display: block;
     line-height: 1;
     padding:  0;
@@ -92,11 +101,11 @@ h4 {
 
 .content {
     background: $light;
-    padding: 20px 0 100px;
+    padding: 1px 0 20px;
 }
 
 .container {
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 
@@ -133,7 +142,7 @@ h4 {
 
 .footer {
     background: $main;
-    padding: 10px 0;
+    padding:  0;
     text-align: center;
     color: #FFF;
 
@@ -316,7 +325,7 @@ h4 {
 .down {
     color: #FFF;
     position: absolute;
-    bottom: 25px;
+    bottom: 0px;
     width: 100%;
     margin: 0 auto;
     display: block;
@@ -418,7 +427,7 @@ h4 {
 
 .post-title {
     z-index: 1;
-    margin: 0 auto;
+    margin: auto;
     color: #FFF;
     position: absolute;
 
