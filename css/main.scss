@@ -19,14 +19,19 @@ $cut: 768px;
 
 }
 
+.title {
+	text-align: center;
+}
+
+.educate {
+	justify-content: center;
+}
+
 .job-logo {
 	display: flex;
 	align-items: center;
 	justify-content: baseline;
-	padding-top: 30px;
-	.top-job {
-		padding-top: 0px;
-	}
+	padding-top: 15px;
 }
 .logo {
 	width: 50vw;
