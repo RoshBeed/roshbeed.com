@@ -19,6 +19,19 @@ $cut: 768px;
 
 }
 
+.job-logo {
+	display: flex;
+	align-items: center;
+	justify-content: baseline;
+}
+.logo {
+	width: 50vw;
+	height: 50vw;
+	width: 60px;
+	max-height: 60px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
 
 .date {
   font-style: italic;
