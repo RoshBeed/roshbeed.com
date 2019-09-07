@@ -1,6 +1,6 @@
 ---
 name: University of Plymouth
-url: https://www.plymouth.ac.uk/
+education_url: https://www.plymouth.ac.uk/
 logo: /img/Logos/Plymouth.png
 end_date: 2016
 award: BSc, Computer Science

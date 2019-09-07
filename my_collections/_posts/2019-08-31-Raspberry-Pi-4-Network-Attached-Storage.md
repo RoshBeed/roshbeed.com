@@ -66,7 +66,7 @@ Insert the SD card into our Raspberry Pi and connect the power supply.
 Setup the SSH connection.
 
 <pre>
-ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
+$ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
 </pre>
 
 Copy SSH public key to Raspberry Pi
@@ -88,8 +88,8 @@ Change the default password to something secure
 
 Disable SSH password authentication
 ```
-$ sudo grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config && sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" >> /etc/ssh/sshd_config
-$ systemctl restart sshd
+# grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config && sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" >> /etc/ssh/sshd_config
+# systemctl restart sshd
 ```
 
 
