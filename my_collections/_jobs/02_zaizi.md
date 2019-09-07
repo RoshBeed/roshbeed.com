@@ -1,6 +1,6 @@
 ---
 company: Zaizi
-url: https://www.zaizi.com/
+job_url: https://www.zaizi.com/
 logo: /img/Logos/ZaiziLogo.png
 role: Linux WebOps Engineer
 start_date: Aug 2017

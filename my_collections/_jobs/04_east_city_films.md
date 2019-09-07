@@ -1,6 +1,6 @@
 ---
 company: East City Films (VR City)
-url: https://eastcityfilms.com/
+job_url: https://eastcityfilms.com/
 logo: /img/Logos/EastCityFilmsLogo.png
 role: Intern
 start_date: Mar 2017

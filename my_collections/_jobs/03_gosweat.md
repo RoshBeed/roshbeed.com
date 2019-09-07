@@ -1,6 +1,6 @@
 ---
 company: GoSweat
-url: https://www.gosweat.com/
+job_url: https://www.gosweat.com/
 logo: /img/Logos/GoSweatLogo.png
 role: Engineer
 start_date: May 2017
