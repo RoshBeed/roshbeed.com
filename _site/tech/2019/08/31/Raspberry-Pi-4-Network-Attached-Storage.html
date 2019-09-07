@@ -96,7 +96,7 @@
 <p>Setup the SSH connection.</p>
 
 <pre>
-ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
+$ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
 </pre>
 
 <p>Copy SSH public key to Raspberry Pi</p>
@@ -115,8 +115,8 @@ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
 </pre>
 
 <p>Disable SSH password authentication</p>
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config &amp;&amp; sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" &gt;&gt; /etc/ssh/sshd_config
-$ systemctl restart sshd
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config &amp;&amp; sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" &gt;&gt; /etc/ssh/sshd_config
+# systemctl restart sshd
 </code></pre></div></div>
 
 <h2 id="disk-setup">Disk Setup</h2>
