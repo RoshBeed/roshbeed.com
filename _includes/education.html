@@ -1,0 +1,15 @@
+<div class="content">
+  <section id="education">
+    {% for education in site.educations %}
+    <div class="educate job-logo">
+      <div>
+        <a href="{{ education.education_url }}"><img src="{{ education.logo }}" alt="logo" class="logo" /></a>
+      </div>
+      <div>
+        <h3 class="job">{{ education.name }}</h3>
+        <p class="date">{{ education.award }}, {{ education.end_date }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</div>
