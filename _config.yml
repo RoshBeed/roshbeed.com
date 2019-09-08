@@ -15,6 +15,4 @@ collections_dir:
   my_collections
 collections:
   jobs:
-    output: true
   educations:
-    output: true

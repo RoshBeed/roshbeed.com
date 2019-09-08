@@ -124,7 +124,7 @@ I also had problems with the battery connection on the motherboard breaking off 
 
 [14]: /img/1TB-iPod-Classic-Mod/14-Almostdone.jpg
 
-[15]: /img/1TB-iPod-Classic-Mod/15-RestoreiPodwithiTunes.png
+[15]: /img/1TB-iPod-Classic-Mod/15-RestoreiPodwithiTunes.jpg
 
 [16]: /img/1TB-iPod-Classic-Mod/16-InstallRockBox(optional).jpg
 
