@@ -4,7 +4,7 @@ title: "Raspberry Pi 4 Network Attached Storage"
 author: Rosh Beedassee
 categories: tech
 tags: [nfs, linux, ssh, raspberry pi]
-image: /img/Raspberry-Pi-Network-Attached-Storage/Raspberry-Pi-Network-Attached-Storage-1.jpg 
+image: /img/Raspberry-Pi-Network-Attached-Storage/Raspberry-Pi-Network-Attached-Storage-1.png 
 image_alt: Network Cables
 ---
 I’m on a quest to find cost-effective ways to store my data. The offerings from cloud providers are enticing, but the subscription payment method can cost a lot over time. Pre-built NAS boxes another option, but they come with a high upfront cost. I decided to create a storage solution using a Raspberry Pi 4 and an SSD drive. In this post, learn how to store data in a centralised location within a local area network and access that data from other devices.

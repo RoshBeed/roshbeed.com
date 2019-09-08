@@ -11,6 +11,31 @@ $cut: 768px;
 
 // Common
 
+#share-buttons {display: flex; display: flex; align-items: center; justify-content: center; }
+#share-buttons:after {content: ""; display: block; clear: both;}
+#share-buttons > div {
+    position: relative;
+    text-align: left; 
+    height: 62px; 
+    width: 62px; 
+    float: left; 
+    text-align: center;
+}
+#share-buttons > div > svg {height: 32px; fill: #1A222C; margin-top: 10px;}
+#share-buttons > div:hover {cursor: pointer;}
+#share-buttons > div.facebook:hover > svg {fill: #3B5998;}
+#share-buttons > div.twitter:hover > svg {fill: #55ACEE;}
+#share-buttons > div.linkedin:hover > svg {fill: #0077b5;}
+#share-buttons > div.pinterest:hover > svg {fill: #CB2027;}
+#share-buttons > div.mail:hover > svg {fill: #7D7D7D;}
+#share-buttons > div.instagram:hover > svg {fill: #C73B92;}
+#share-buttons > div.facebook > svg {height: 36px; margin-top: 9px;}
+#share-buttons > div.twitter > svg {height: 40px; margin-top: 8px;}
+#share-buttons > div.linkedin > svg {height: 38px; margin-top: 7px;}
+#share-buttons > div.pinterest > svg {height: 40px; margin-top: 9px;}
+#share-buttons > div.mail > svg {height: 28px; margin-top: 11px;}
+
+
 @import url( 'https://fonts.googleapis.com/css?family=Montserrat');
 .job {
   font-size: 20px;

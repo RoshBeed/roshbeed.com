@@ -4,7 +4,7 @@ title: "Raspberry Pi Password Manager"
 author: Rosh Beedassee
 categories: tech
 tags: [gpg, pass, git, ssh]
-image: /img/Raspberry-Pi-Password-Manager/Raspberry-Pi-Password-Manager-1.png 
+image: /img/Raspberry-Pi-Password-Manager/Raspberry-Pi-Password-Manager-1.jpg 
 image_alt: Raspberry Pi
 ---
 As data breaches become increasingly common, securing our online accounts is more important than ever. Cloud-based password managers serve to free us from the need to remember passwords but what of those who don’t want to store their passwords online (or are excessively paranoid)? In this post, we will set up a Raspberry Pi 3 with Raspbian and a Git repository which we will use to store our passwords.

@@ -1,7 +1,7 @@
 ---
 company: Amazon Web Services
 job_url: https://aws.amazon.com/
-logo: /img/Logos/AWSLogo.jpg
+logo: /img/Logos/AWSLogo.png
 role: Cloud Engineer Trainee
 start_date: Jul 2019
 end_date: Sept 2019

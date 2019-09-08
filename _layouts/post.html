@@ -1,27 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-{% include head.html %}
-
-<body>
-    <a href="/">
-        <div id="particles-js" class="particles-small">
-            <div class="post-title">
-							 <img class="small-profile" src="/img/profile.png"></img>
-                <h1 class="site-title">{{site.username}}</h1>
-            </div>
-        </div>
-    </a>
-    <div class="content">
-        <section id="post">
-            <div class="container post">
-                <h1>{{ page.title }}</h1>
-                <img alt="{{ page.image_alt }}" src="{{ page.image | prepend: site.baseurl }}" />
-                {{ content }}
-								{% include share-buttons.html %}
-            </div>
-        </section>
-    </div>
+  {% include head.html %}
+  <body>
+    {% include post_particles.html %}
+    {% include post_post.html %}
     {% include footer.html %}
-</body>
-
+  </body>
 </html>
