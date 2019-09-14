@@ -18,4 +18,41 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="//cdn.rawgit.com/konpa/devicon/master/devicon.min.css" type="text/css">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+	<script>
+	function submitToAPI(e) {
+       e.preventDefault();
+       var URL = "https://9hnin5wl0f.execute-api.eu-west-1.amazonaws.com/prod/comments";
+
+       var post = $("#post-input").val();
+       var comment = $("#comment-input").val();
+       var name = $("#name-input").val();
+       var email = $("#email-input").val();
+       var data = {
+          post : name,
+          comment : comment,
+          name : name
+          email : email,
+        };
+
+       $.ajax({
+         type: "PUT",
+         url : "https://9hnin5wl0f.execute-api.eu-west-1.amazonaws.com/prod/comments",
+         dataType: "json",
+         crossDomain: "true",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(data),
+
+
+         success: function () {
+           // clear form and show a success message
+           alert("Successfull");
+           document.getElementById("contact-form").reset();
+       location.reload();
+         },
+         error: function () {
+           // show an error message
+           alert("UnSuccessfull");
+         }});
+     }
+	</script>
 </head>
