@@ -4,7 +4,7 @@ phases:
     commands: gem install bundler          
   build:
     commands:
-      - jekyll build
+      - jekyll build --trace
   post_build:
     commands:
       - ls -la
