@@ -1,11 +1,8 @@
 version: 0.2
 phases:
-  pre_build:
-    commands:
-      - chown -R 1000:1000 $CODEBUILD_SRC_DIR
   build:
     commands:
-      - docker run --rm --volume="$CODEBUILD_SRC_DIR:/srv/jekyll" jekyll/builder:3.8 jekyll build
+      - jekyll build
   post_build:
     commands:
       - ls -la
