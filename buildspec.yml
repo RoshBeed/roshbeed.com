@@ -2,13 +2,14 @@ version: 0.2
 phases:
   install:
     commands: 
+      - gem install bundler
       - mkdir .jekyll-cache
   build:
     commands:
       - jekyll build --trace
   post_build:
     commands:
-      - ls -la
+      - ls -la _site/
 artifacts:
   files:
     - '**/*'
