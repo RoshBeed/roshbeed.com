@@ -1,0 +1,102 @@
+I"U<p>With the maximum size of an iPod classic at 160GB, I found myself quickly filling up the available storage with lossless FLAC files. I sought for a way to increase the storage capacity. In this post, I will go through the steps I took to upgrade my iPod to 1TB. I like to call it ‘The TeraPod’.</p>
+
+<p>In order to complete this you will need a few things:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>mSATA SSD</th>
+      <th>ZIF to mSATA adapter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>I used the <a href="https://www.samsung.com/us/computer/memory-storage/MZ-MTE1T0BW-specs">Samsung 840 EVO</a>.</td>
+      <td>I used Tarken Akdam’s <a href="http://www.tarkan.info/store/iflash-sata">iFlash-Sata – mSata adapter</a></td>
+    </tr>
+    <tr>
+      <td><img src="/img/1TB-iPod-Classic-Mod/2-mSATASSD.jpg" alt="" /></td>
+      <td><img src="/img/1TB-iPod-Classic-Mod/3-ZIFtomSATAadapter.jpg" alt="" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="open-your-ipod">Open your iPod</h2>
+<p>You will need to get inside your iPod. I would suggest using plastic opening tool so you do not damage your iPod. If you have purchased a replacement back panel then you can bend your one out of shape while getting it off more easily.
+￼￼</p>
+
+<p><img src="/img/1TB-iPod-Classic-Mod/4-OpenyouriPod.jpg" alt="" /></p>
+
+<p>Be careful of the battery cable! It’s pretty easy to rip the whole connector off.</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/5-BatteryCable.jpg" alt="" /></p>
+
+<p>This is what you should see once you open your iPod</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/6-Itsopen.jpg" alt="" /></p>
+
+<h2 id="removing-the-hdd">Removing the HDD</h2>
+<p>Flip the hard drive down to reveal the connecting cable</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/7-RemovingtheHDD.jpg" alt="" /></p>
+
+<p>Carefully remove the connecting cable</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/8-RemovingtheHDD.jpg" alt="" /></p>
+
+<p>The HDD has been removed!</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/9-NoSpace.jpg" alt="" /></p>
+
+<h2 id="connecting-the-ssd">Connecting the SSD</h2>
+<p>Now it’s time to do the reverse with an SSD</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/10-SSDSwap.jpg" alt="" /></p>
+
+<p>Plug the connecter into the ZIF to mSATA adapter board</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/11-ConnectingtheSSD.jpg" alt="" /></p>
+
+<p>There’s a few more things left to do</p>
+
+<p><img src="/img/1TB-iPod-Classic-Mod/12-ConnectedtheSSD.jpg" alt="" /></p>
+
+<h2 id="closing-the-ipod">Closing the iPod</h2>
+<p>Attach the battery cable</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/13-BatteryCable.jpg" alt="" /></p>
+
+<p>Close the iPod back up</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/14-Almostdone.jpg" alt="" /></p>
+
+<h2 id="restore-ipod-with-itunes">Restore iPod with iTunes</h2>
+<p>Connect your iPod to your computer and open iTunes. Press Menu + Select for 10 to 15 seconds which will put your iPod in DFU mode. iTunes should detect your iPod and offer to restore it for you.</p>
+
+<p>￼
+<img src="/img/1TB-iPod-Classic-Mod/15-RestoreiPodwithiTunes.jpg" alt="" /></p>
+
+<h2 id="install-rockbox-optional">Install RockBox (optional)</h2>
+<p>If your iPod is not recognising all of the storage. It may be limited by the stock OS. You can install <a href="http://www.rockbox.org/">RockBox</a> to overcome this limitation.
+RockBox also has a lot of new features that are not available in the stock OS and I recommend you check it out.</p>
+
+<p>￼￼
+<img src="/img/1TB-iPod-Classic-Mod/16-InstallRockBox(optional).jpg" alt="" />
+<img src="/img/1TB-iPod-Classic-Mod/17-930GB.jpg" alt="" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The original HDD in the iPod draws 0.5A whereas the SSD draws 1.9A. Playback works great but I had issues copying songs onto the iPod: The load of hitting the SSD would drain the iPod’s battery completely before the songs had copied. I remedied this by preloading the bulk of my music using an mSATA to USB adapter, other workarounds include copying batches of songs and waiting for the battery to recharge. Another option would be to go with a ZIF to SD card adapter as they use less power.</p>
+
+<p>I also had problems with the battery connection on the motherboard breaking off after a few connection cycles. It was easy to find a replacement online but I found it difficult to solder on due to how small it was.</p>
+
+:ET

@@ -1,0 +1,13 @@
+I"<p>Developed a marketplace application to find local sports facilities. Took on more of the DevOps tasks after the team changed.</p>
+
+<ul>
+  <li>Implemented the use of automation and DevOps concepts in the company. Presented demos on tools (e.g. Git and Docker) and how they could be used effectively.</li>
+  <li>Migrated search service from Digital Ocean and Mlabs to Google Cloud Platform and Cloud SQL.</li>
+  <li>Set up CI/CD with Bitbucket Pipelines to GCP.</li>
+  <li>Delivered presentations on agile methodologies and mindsets.</li>
+  <li>Acted as Tech Lead during handover.</li>
+  <li>Created REST APIs microservices with Java.</li>
+  <li>Developed website to consume APIs with AngularJS.</li>
+  <li>Discussed, analysed and strategised products with C-level executives.</li>
+</ul>
+:ET

@@ -2,10 +2,9 @@
   <section id="post">
     <div class="container post">
       <h1>{{ page.title }}</h1>
-      <img alt="{{ page.image_alt }}" src="{{ page.image | prepend: site.baseurl }}" />
+      <img class="main-img" alt="{{ page.image_alt }}" src="{{ page.image | prepend: site.baseurl }}" />
       {{ content }}
 			{% include comment-form.html %}
-      {% include comments.html %}
       {% include share-buttons.html %}
     </div>
   </section>

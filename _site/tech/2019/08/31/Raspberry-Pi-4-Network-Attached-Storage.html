@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Raspberry Pi 4 Network Attached Storage</title>
-  <meta name="description" content="DevOps Engineer">
+  <meta name="description" content="DevOps">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
@@ -64,7 +64,7 @@
   <div id="particles-js" class="particles-small">
     <div class="post-title">
       <img class="small-profile" src="/img/profile.png"></img>
-      <h1 class="site-title">Rosh Beedassee</h1>
+      <h1 class="site-title">Rosh Beed</h1>
     </div>
   </div>
 </a>
@@ -73,7 +73,7 @@
   <section id="post">
     <div class="container post">
       <h1>Raspberry Pi 4 Network Attached Storage</h1>
-      <img alt="Network Cables" src="/img/Raspberry-Pi-Network-Attached-Storage/Raspberry-Pi-Network-Attached-Storage-1.png" />
+      <img class="main-img" alt="Network Cables" src="/img/Raspberry-Pi-Network-Attached-Storage/Raspberry-Pi-Network-Attached-Storage-1.png" />
       <p>I’m on a quest to find cost-effective ways to store my data. The offerings from cloud providers are enticing, but the subscription payment method can cost a lot over time. Pre-built NAS boxes another option, but they come with a high upfront cost. I decided to create a storage solution using a Raspberry Pi 4 and an SSD drive. In this post, learn how to store data in a centralised location within a local area network and access that data from other devices.</p>
 
 <h2 id="content">Content</h2>
@@ -236,9 +236,9 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
        var URL = "https://9hnin5wl0f.execute-api.eu-west-1.amazonaws.com/prod/comments";
 
        var post = document.title;
-       var name = $("#name-input").val();
-       var email = $("#email-input").val();
-       var comment = $("#comment-input").val();
+       var name = $("#fname").val();
+       var email = $("#lname").val();
+       var comment = $("#subject").val();
        var data = {
           post : post,
           comment : comment,
@@ -249,7 +249,7 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
        $.ajax({
          type: "PUT",
          url : "https://9hnin5wl0f.execute-api.eu-west-1.amazonaws.com/prod/comments",
-         dataType: "json",
+ //        dataType: "json",
          crossDomain: "true",
          contentType: "application/json; charset=utf-8",
          data: JSON.stringify(data),
@@ -274,11 +274,120 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
     $.getJSON( dmJSON, function(data) {
       $.each(data.Items, function(i, f) {
         var tblRow = "<tr>" + "<td>" + f.name + "</td>" + "<td>" + f.comment + "</td>" + "<td> " + new Date(0 + f.date * 1000).toUTCString() + "</td>"
-        $(tblRow).appendTo("#entrydata tbody");
+        $(tblRow).appendTo("#comments tbody");
       });
     });
   });
 </script>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+ {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+ 
+    display: block;
+    width: 100px;
+    margin: 3px;
+    padding: 5px;
+    color: #1a222c;
+    background-color: transparent;
+    border: 1px solid #1a222c;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease-out, background-color 0.3s ease-out, border-color 0.3s ease-out;
+
+}
+
+input[type=submit]:hover {
+  background-color: #1a222c;
+}
+
+.comments {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+	padding: 20px;
+}
+
+#comments {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#comments td, #comments th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#comments tr:nth-child(even){background-color: #f2f2f2;}
+
+#comments tr:hover {background-color: #ddd;}
+
+#comments th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1a222c;
+  color: white;
+}
+
+	.buttonHolder{ justify-content: center; display: flex;}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="comments">
+<h1 style="text-align:center; margin-top: 10px;">Comments</h1>
+<div class="wrapper">
+    <table id= "comments" border="1">
+      <thead>
+        <th>Name</th>
+	      <th>Comment</th>
+	      <th>Time</th>
+      </thead>
+    <tbody>
+  </tbody>
+</table>
+</div>
+
+<br><br>
+
+  <form>
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+    <label for="subject">Comment</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		<div class="buttonHolder">
+		<input class="project-link" onClick="submitToAPI(event)" type="submit" value="Submit">
+		</div>
+
+		<br>
+  </form>
+</div>
+
+<!--
 <div class="wrapper">
   <div class="profile">
     <table id= "entrydata" border="1">
@@ -292,7 +401,8 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
 </table>
 </div>
 </div>
-<form id="comment">
+<div>
+<form id="comment" style="box-sizing: border-box;">
       <h4>Name:</h4>
       <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
       <h4 style="margin:0px">Email:</h4>
@@ -300,17 +410,10 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
       <h4 style="margin:0px">Comment:</h4>
       <textarea id="comment-input" rows="3" placeholder="Enter your message…" class="form-control" style="width:100%;"></textarea><br/>
       <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
-      <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
 </form>
+</div>
 
-      
-<section class="pt2">
-
-    <h2 class="f4 c-lh-title">Comments</h2>
-
-    
-
-</section>
+-->
 
       
 
@@ -342,7 +445,7 @@ $ ssh-keygen -q -t rsa -f $HOME/.ssh/id_rsa -P "<b>&lt;passphrase&gt;</b>"
 </div>
 
     <footer class="footer">
-  <p>Rosh Beedassee</p>
+  <p>Rosh Beed</p>
 </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>

@@ -19,45 +19,37 @@ In order to complete this you will need a few things:
 
 ## Open your iPod
 You will need to get inside your iPod. I would suggest using plastic opening tool so you do not damage your iPod. If you have purchased a replacement back panel then you can bend your one out of shape while getting it off more easily.
-￼￼
 
 ![][4]
 
 Be careful of the battery cable! It's pretty easy to rip the whole connector off.
 
-￼￼
 ![][5]
 
 This is what you should see once you open your iPod
 
-￼￼
 ![][6]
 
 ## Removing the HDD
 Flip the hard drive down to reveal the connecting cable
 
-￼￼
 ![][7]
 
 Carefully remove the connecting cable
 
-￼￼
 ![][8]
 
 The HDD has been removed!
 
-￼￼
 ![][9]
 
 ## Connecting the SSD
 Now it's time to do the reverse with an SSD
 
-￼￼
 ![][10]
 
 Plug the connecter into the ZIF to mSATA adapter board
 
-￼￼
 ![][11]
 
 There's a few more things left to do
@@ -68,25 +60,21 @@ There's a few more things left to do
 ## Closing the iPod
 Attach the battery cable
 
-￼￼
 ![][13]
 
 Close the iPod back up
 
-￼￼
 ![][14]
 
 ## Restore iPod with iTunes
 Connect your iPod to your computer and open iTunes. Press Menu + Select for 10 to 15 seconds which will put your iPod in DFU mode. iTunes should detect your iPod and offer to restore it for you.
 
-￼
 ![][15]
 
 ## Install RockBox (optional)
 If your iPod is not recognising all of the storage. It may be limited by the stock OS. You can install [RockBox](http://www.rockbox.org/) to overcome this limitation.
 RockBox also has a lot of new features that are not available in the stock OS and I recommend you check it out.
 
-￼￼
 ![][16]
 ![][17]
 
@@ -129,6 +117,3 @@ I also had problems with the battery connection on the motherboard breaking off 
 [16]: /img/1TB-iPod-Classic-Mod/16-InstallRockBox(optional).jpg
 
 [17]: /img/1TB-iPod-Classic-Mod/17-930GB.jpg
-
-
-

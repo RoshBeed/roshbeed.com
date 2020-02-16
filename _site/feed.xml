@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-10T00:55:25+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rosh Beedassee</title><subtitle>DevOps Engineer</subtitle><entry><title type="html">Raspberry Pi 4 Network Attached Storage</title><link href="http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage.html" rel="alternate" type="text/html" title="Raspberry Pi 4 Network Attached Storage" /><published>2019-08-31T00:00:00+01:00</published><updated>2019-08-31T00:00:00+01:00</updated><id>http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage</id><content type="html" xml:base="http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage.html">&lt;p&gt;I’m on a quest to find cost-effective ways to store my data. The offerings from cloud providers are enticing, but the subscription payment method can cost a lot over time. Pre-built NAS boxes another option, but they come with a high upfront cost. I decided to create a storage solution using a Raspberry Pi 4 and an SSD drive. In this post, learn how to store data in a centralised location within a local area network and access that data from other devices.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-16T23:38:33+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rosh Beed</title><subtitle>DevOps</subtitle><entry><title type="html">Raspberry Pi 4 Network Attached Storage</title><link href="http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage.html" rel="alternate" type="text/html" title="Raspberry Pi 4 Network Attached Storage" /><published>2019-08-31T00:00:00+01:00</published><updated>2019-08-31T00:00:00+01:00</updated><id>http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage</id><content type="html" xml:base="http://localhost:4000/tech/2019/08/31/Raspberry-Pi-4-Network-Attached-Storage.html">&lt;p&gt;I’m on a quest to find cost-effective ways to store my data. The offerings from cloud providers are enticing, but the subscription payment method can cost a lot over time. Pre-built NAS boxes another option, but they come with a high upfront cost. I decided to create a storage solution using a Raspberry Pi 4 and an SSD drive. In this post, learn how to store data in a centralised location within a local area network and access that data from other devices.&lt;/p&gt;
 
 &lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
 
@@ -500,47 +500,39 @@ $ gpg --allow-secret-key-import \&amp;lt;&lt;b&gt;&amp;lt;johndoe@example.com&am
 &lt;/table&gt;
 
 &lt;h2 id=&quot;open-your-ipod&quot;&gt;Open your iPod&lt;/h2&gt;
-&lt;p&gt;You will need to get inside your iPod. I would suggest using plastic opening tool so you do not damage your iPod. If you have purchased a replacement back panel then you can bend your one out of shape while getting it off more easily.
-￼￼&lt;/p&gt;
+&lt;p&gt;You will need to get inside your iPod. I would suggest using plastic opening tool so you do not damage your iPod. If you have purchased a replacement back panel then you can bend your one out of shape while getting it off more easily.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/4-OpenyouriPod.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Be careful of the battery cable! It’s pretty easy to rip the whole connector off.&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/5-BatteryCable.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/5-BatteryCable.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;This is what you should see once you open your iPod&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/6-Itsopen.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/6-Itsopen.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;removing-the-hdd&quot;&gt;Removing the HDD&lt;/h2&gt;
 &lt;p&gt;Flip the hard drive down to reveal the connecting cable&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/7-RemovingtheHDD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/7-RemovingtheHDD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Carefully remove the connecting cable&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/8-RemovingtheHDD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/8-RemovingtheHDD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The HDD has been removed!&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/9-NoSpace.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/9-NoSpace.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;connecting-the-ssd&quot;&gt;Connecting the SSD&lt;/h2&gt;
 &lt;p&gt;Now it’s time to do the reverse with an SSD&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/10-SSDSwap.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/10-SSDSwap.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Plug the connecter into the ZIF to mSATA adapter board&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/11-ConnectingtheSSD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/11-ConnectingtheSSD.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;There’s a few more things left to do&lt;/p&gt;
 
@@ -549,26 +541,22 @@ $ gpg --allow-secret-key-import \&amp;lt;&lt;b&gt;&amp;lt;johndoe@example.com&am
 &lt;h2 id=&quot;closing-the-ipod&quot;&gt;Closing the iPod&lt;/h2&gt;
 &lt;p&gt;Attach the battery cable&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/13-BatteryCable.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/13-BatteryCable.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Close the iPod back up&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/14-Almostdone.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/14-Almostdone.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;restore-ipod-with-itunes&quot;&gt;Restore iPod with iTunes&lt;/h2&gt;
 &lt;p&gt;Connect your iPod to your computer and open iTunes. Press Menu + Select for 10 to 15 seconds which will put your iPod in DFU mode. iTunes should detect your iPod and offer to restore it for you.&lt;/p&gt;
 
-&lt;p&gt;￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/15-RestoreiPodwithiTunes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/15-RestoreiPodwithiTunes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;install-rockbox-optional&quot;&gt;Install RockBox (optional)&lt;/h2&gt;
 &lt;p&gt;If your iPod is not recognising all of the storage. It may be limited by the stock OS. You can install &lt;a href=&quot;http://www.rockbox.org/&quot;&gt;RockBox&lt;/a&gt; to overcome this limitation.
 RockBox also has a lot of new features that are not available in the stock OS and I recommend you check it out.&lt;/p&gt;
 
-&lt;p&gt;￼￼
-&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/16-InstallRockBox(optional).jpg&quot; alt=&quot;&quot; /&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1TB-iPod-Classic-Mod/16-InstallRockBox(optional).jpg&quot; alt=&quot;&quot; /&gt;
 &lt;img src=&quot;/img/1TB-iPod-Classic-Mod/17-930GB.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
