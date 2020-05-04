@@ -1,7 +1,6 @@
 ---
 name: AWSSAA
-href: https://www.certmetrics.com/amazon/public/badge.aspx?t=c&amp;d=2020-01-21&amp;i=1&amp;ci=AWS01026000
-data-saferedirecturl: https://www.google.com/url?q=https://www.certmetrics.com/amazon/public/badge.aspx?t%3Dc%26d%3D2020-01-21%26i%3D1%26ci%3DAWS01026000&amp;source=gmail&amp;ust=1581378185057000&amp;usg=AFQjCNEp0zpsYQedhHvJ3SYGK-pBvgnq0A 
-src: /img/Logos/AWSSAA.png
+href: https://www.youracclaim.com/earner/earned/badge/6056d238-0095-46c7-9c5a-d49fd3a4dbac
+src: https://images.youracclaim.com/size/220x220/images/6774b3bf-7a82-4d40-a2d1-86b412635bae/AWS-SolArchitect-Associate.png
 title: AWS Certified Solutions Architect - Associate
 ---

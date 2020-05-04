@@ -6,7 +6,11 @@
 				<tbody>
 					<tr>
 						{% for c in site.certifications %}
-						<td  style="display:inline-block"><a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank" data-saferedirecturl="{{ c.data-saferedirecturl}}"><img style="height:100px;width:100px" width="100" height="100" src="{{ c.src }}" alt="{{ c.title }}" title="{{ c.title }}" class="CToWUd"></a></td>
+						<td  style="display:inline-block">
+							<a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank">
+								<img src="{{ c.src }}" width="110" alt="{{ c.title }}" height="110" class="CToWUd">
+							</a>
+						</td>
 						{% endfor %}
 					</tr>
 				</tbody>
@@ -14,3 +18,5 @@
     </div>
   </section>
 </div>
+
+

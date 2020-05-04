@@ -1,7 +1,6 @@
 ---
 name: AWSSAP
-href: https://www.certmetrics.com/amazon/public/badge.aspx?t=c&d=2020-04-10&i=4&ci=AWS01026000
-data-saferedirecturl: https://www.google.com/url?q=https://www.certmetrics.com/amazon/public/badge.aspx?t%3Dc%26d%3D2020-04-10%26i%3D4%26ci%3DAWS01026000&source=gmail&ust=1586691847927000&usg=AFQjCNEXf9cDtWKPhceUiAzkNksPSsAbmA
-src: /img/Logos/AWSSAP.png
+href: https://www.youracclaim.com/earner/earned/badge/ddd2ec2f-b859-4350-928e-2f125dd96487
+src: https://images.youracclaim.com/size/220x220/images/b158bae7-462e-4c2c-92e6-d7a0b4cdb6c6/AWS-SolArchitect-Professional.png
 title: AWS Certified DevOps Engineer - Professional
 ---

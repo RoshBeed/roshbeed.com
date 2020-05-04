@@ -1,7 +1,6 @@
 ---
 name: AWSDVA
-href: https://www.certmetrics.com/amazon/public/badge.aspx?t=c&amp;d=2020-01-31&amp;i=2&amp;ci=AWS01026000
-data-saferedirecturl: https://www.google.com/url?q=https://www.certmetrics.com/amazon/public/badge.aspx?t%3Dc%26d%3D2020-01-31%26i%3D2%26ci%3DAWS01026000&amp;source=gmail&amp;ust=1581378185057000&amp;usg=AFQjCNGUzHmzQ0ds9DnUgs6c0UOtxCrBrw
-src: /img/Logos/AWSDVA.png
+href: https://www.youracclaim.com/earner/earned/badge/233e4bde-8c34-4d84-a6c9-06d84265d383
+src: https://images.youracclaim.com/size/220x220/images/2a15d440-edbe-44a2-890f-0a0caf7e1442/AWS-Developer-Associate.png
 title: AWS Certified Developer- Associate
 ---
