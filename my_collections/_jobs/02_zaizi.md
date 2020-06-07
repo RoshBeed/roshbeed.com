@@ -6,8 +6,8 @@ role: Linux WebOps Engineer
 start_date: Aug 2017
 end_date: Feb 2018
 ---
-Researched how to increase the performance of services with new technologies. Configured, tested and deployed updates to services.
-
-- Developed a dashboard to monitor the company’s internal and external services with AWS CloudWatch.
-- Created a secure multi-user password manager using gpg and git. Used AWS CodeCommit to synchronise encrypted passwords between users.
-- Automated the deployment of Alfresco and GlusterFS geo-replicated redundant storage to AWS.
+Increased performance of services with new technologies. Configured, tested and deployed updates to services.
+  - Reduced the time of a weekly manual task of copying data from a CSV into a GUI from 2 days to 2 hours with a python script.
+  - Developed a dashboard to monitor the company’s services using CloudWatch.
+  - Created a simple yet secure multi-user password manager using GPG for encryption-at-rest and Git over SSH for encryption-in-transit. Used CodeCommit to synchronise passwords between users.
+  - Reduced the speed of Alfresco deployments from hours to minutes by creating a golden AMI using Ansible.
