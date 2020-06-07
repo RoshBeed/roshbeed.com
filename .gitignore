@@ -1,4 +1,6 @@
 .DS_Store
 config.codekit
-.jekyll-cache
 _site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
