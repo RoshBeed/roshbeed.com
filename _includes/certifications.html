@@ -5,7 +5,34 @@
 			<table cellpadding="5" cellspacing="0">
 				<tbody>
 					<tr>
-						{% for c in site.certifications %}
+						{% for c in site.aws %}
+						<td  style="display:inline-block">
+							<a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank">
+								<img src="{{ c.src }}" width="110" alt="{{ c.title }}" height="110" class="CToWUd">
+							</a>
+						</td>
+						{% endfor %}
+					</tr>
+					<tr>
+						{% for c in site.gcp %}
+						<td  style="display:inline-block">
+							<a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank">
+								<img src="{{ c.src }}" width="110" alt="{{ c.title }}" height="110" class="CToWUd">
+							</a>
+						</td>
+						{% endfor %}
+					</tr>
+					<tr>
+						{% for c in site.azure %}
+						<td  style="display:inline-block">
+							<a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank">
+								<img src="{{ c.src }}" width="110" alt="{{ c.title }}" height="110" class="CToWUd">
+							</a>
+						</td>
+						{% endfor %}
+					</tr>
+					<tr>
+						{% for c in site.other %}
 						<td  style="display:inline-block">
 							<a href="{{ c.href }}" style="border:none;text-decoration:none" target="_blank">
 								<img src="{{ c.src }}" width="110" alt="{{ c.title }}" height="110" class="CToWUd">

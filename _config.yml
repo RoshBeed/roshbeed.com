@@ -16,4 +16,7 @@ collections_dir:
 collections:
   jobs:
   educations:
-  certifications:
+  aws:
+  gcp:
+  azure:
+  other:
