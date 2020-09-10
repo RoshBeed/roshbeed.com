@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     commands: 
-      - mkdir .jekyll-cache
+      - gem install bundler
       - bundle install
   build:
     commands:
