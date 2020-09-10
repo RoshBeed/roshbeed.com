@@ -1,0 +1,105 @@
+I"ñ<p>Today we will delve into the realms of window management and discover new ways to organise windows. Today we will learn new things. Today we will learn about tiling window managers.</p>
+
+<h2 id="contents">Contents</h2>
+<ul>
+  <li><a href="#desktop-environments">Desktop Environments</a></li>
+  <li><a href="#window-managers">Window Managers</a></li>
+  <li><a href="#list-vs-tree">List vs. Tree</a></li>
+  <li><a href="#stacking-window-managers">Stacking Window Managers</a></li>
+  <li><a href="#tiling-window-managers">Tiling Window Managers</a></li>
+  <li><a href="#conclusion">Conclusion</a></li>
+</ul>
+
+<h2 id="desktop-environments">Desktop Environments</h2>
+<p>How do window managers work alongside other pieces of software?</p>
+
+<p>You have likely used a window manager as part of a group of applications known as a desktop environment.
+Before we look in-depth at window managers, let us have a brief overview of Desktop Environments</p>
+
+<ul>
+  <li>Package of applications to create a complete graphical environment
+    <ul>
+      <li>Windows Manager</li>
+      <li>Taskbar</li>
+      <li>Applications
+        <ul>
+          <li>Terminal emulator</li>
+          <li>File manager</li>
+          <li>Text editor</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>May also include
+    <ul>
+      <li>Application launcher</li>
+      <li>Clipboard manager</li>
+      <li>Desktop compositor</li>
+      <li>Desktop wallpaper setter and desktop icon</li>
+      <li>Display manager</li>
+      <li>Display power saving settings</li>
+      <li>Logout dialogue</li>
+      <li>Mount tool</li>
+      <li>Notification daemon</li>
+      <li>Polkit authentication agent</li>
+      <li>Screen locker</li>
+      <li>Sound volume manager</li>
+      <li>Default applications</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="window-managers">Window Managers</h2>
+
+<p>Window Managers control the placement and appearance of windows in a graphical user interface.</p>
+
+<ul>
+  <li>Draws graphical applications</li>
+  <li>Controls aspects of windows
+    <ul>
+      <li>Appearance</li>
+      <li>Placement</li>
+      <li>Border</li>
+      <li>Titlebar</li>
+      <li>Size</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="list-vs-tree">List vs. Tree</h2>
+<p>Stacking window managers utilise lists to draw windows in order. List-based tiling window managers use them to populate a predefined grid layout.</p>
+
+<p>Tree-based tiling window managers can have different layouts at each parent node. You can define horizontal or vertical splits and place windows wherever you wish.</p>
+
+<h2 id="stacking-window-managers">Stacking Window Managers</h2>
+<p>The windows act like pieces of paper on a desk. They can be drawn anywhere on the screen. They can overlap.</p>
+
+<p><img src="/img/Tiling-Window-Managers/S6.png" alt="" /></p>
+
+<h2 id="tiling-window-managers">Tiling Window Managers</h2>
+<p>Tiling window managers place windows in a grid where none of the windows can overlap.</p>
+
+<p>Here we have two windows horizontally split.</p>
+
+<p><img src="/img/Tiling-Window-Managers/H(2,1).png" alt="" /></p>
+
+<p>The parent node has another window added to it.</p>
+
+<p><img src="/img/Tiling-Window-Managers/H(3,2,1).png" alt="" /></p>
+
+<p>Two horizontal splits can achieve the same layout.</p>
+
+<p><img src="/img/Tiling-Window-Managers/H(3,H(2,1)).png" alt="" /></p>
+
+<p>Setting the parent node of windows 2 and 3 to a vertical split.</p>
+
+<p><img src="/img/Tiling-Window-Managers/H(3,V(2,1)).png" alt="" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>Tiling window managers offer us a fast and efficient way to organise windows. Tree-based tiling window managers enable us to create custom layouts on-the-fly.</p>
+
+<p>Learning to master a tiling window manager is daunting. It requires a paradigm shift in your window management mindset. Your optimal keybindings may take countless iterations to perfect.</p>
+
+<p>Tiling window managers allow us to manage windows solely through the keyboard. Slowing down our workflow to use the mouse to organise windows is a thing of the past. Start using a tiling window manager today!</p>
+
+:ET
