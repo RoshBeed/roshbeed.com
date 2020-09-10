@@ -6,7 +6,7 @@ phases:
       - bundle install
   build:
     commands:
-      - jekyll build --trace
+      - bundle exec jekyll build --trace
   post_build:
     commands:
       - ls -la _site/
