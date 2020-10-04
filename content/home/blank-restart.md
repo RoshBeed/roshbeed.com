@@ -21,7 +21,7 @@ design:
     image: restart.jpg
     image_darken: 0
     image_parallax: true
-    image_position: 0 -50px
+    image_position: right
     image_size: scale
     text_color_light: true
   spacing:

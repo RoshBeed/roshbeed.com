@@ -21,7 +21,7 @@ design:
     image: aws.jpg
     image_darken: 0
     image_parallax: true
-    image_position: 0 -45px
+    image_position: center
     image_size: scale
     text_color_light: true
   spacing:
