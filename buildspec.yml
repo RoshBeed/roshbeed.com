@@ -3,7 +3,7 @@ version: 0.2
 phases:
  build:
     commands:
-      - hugo -v
+      - hugo -v --gc --minify --baseURL="https://roshbeed.com"
 artifacts:
   files:
     - '**/*'
