@@ -21,9 +21,9 @@ design:
     image: rosh.jpg
     image_darken: 0
     image_parallax: false
-    image_position: top
+    image_position: center
     image_size: scale
     text_color_light: true
   spacing:
-    padding: ["30vw", "0", "0", "0"]
+    padding: ["40vw", "0", "0", "0"]
 ---
