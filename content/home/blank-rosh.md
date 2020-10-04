@@ -20,11 +20,10 @@ design:
   background:
     image: rosh.jpg
     image_darken: 0
-    image_parallax: true
-    image_position: top 
-    image_size: contain
+    image_parallax: false
+    image_position: top
+    image_size: scale
     text_color_light: true
   spacing:
-    padding: ["0", "0", "50vh", "0"]
-  # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["20vw", "0", "0", "0"]
 ---

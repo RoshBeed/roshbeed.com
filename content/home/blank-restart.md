@@ -21,11 +21,11 @@ design:
     image: restart.jpg
     image_darken: 0
     image_parallax: true
-    image_position: top
-    image_size: contain
+    image_position: 0 -50px
+    image_size: scale
     text_color_light: true
   spacing:
-    padding: ["20vw", "0", "0", "0"]
+#    padding: ["20vw", "0", "0", "0"]
 
 
 ---
