@@ -25,5 +25,5 @@ design:
     image_size: scale
     text_color_light: true
   spacing:
-    padding: ["40vw", "0", "0", "0"]
+    padding: ["30vw", "0", "0", "0"]
 ---
