@@ -1,8 +1,0 @@
-I"™<p>Increased performance of services with new technologies. Configured, tested and deployed updates to services.</p>
-<ul>
-  <li>Reduced the time of a weekly manual task of copying data from a CSV into a GUI from 2 days to 2 hours with a python script.</li>
-  <li>Developed a dashboard to monitor the companyâ€™s services using CloudWatch.</li>
-  <li>Created a simple yet secure multi-user password manager using GPG for encryption-at-rest and Git over SSH for encryption-in-transit. Used CodeCommit to synchronise passwords between users.</li>
-  <li>Reduced the speed of Alfresco deployments from hours to minutes by creating a golden AMI using Ansible.</li>
-</ul>
-:ET
