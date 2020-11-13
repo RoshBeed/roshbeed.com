@@ -16,7 +16,7 @@ phases:
   build:
     commands:
       - hugo -v --gc --minify
-      - aws s3 cp ./public s3://$S3_WEBSITE_BUCKET
+      - aws s3 sync ./public s3://$S3_WEBSITE_BUCKET
 artifacts:
   files:
     - '**/*'
