@@ -15,8 +15,7 @@ phases:
       - ls -la
   build:
     commands:
-      - hugo -v --gc
-      - aws s3 sync ./public s3://$S3_WEBSITE_BUCKET
+      - hugo check
 artifacts:
   files:
     - '**/*'
