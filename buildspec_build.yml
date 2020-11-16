@@ -15,7 +15,8 @@ phases:
       - ls -la
   build:
     commands:
-      - aws s3 sync hello-world.html s3://$S3_WEBSITE_BUCKET
+      - hugo -v --gc --minify
+      - aws s3 sync ./public s3://$S3_WEBSITE_BUCKET
 artifacts:
   files:
     - '**/*'
