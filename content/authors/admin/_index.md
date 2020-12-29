@@ -77,4 +77,4 @@ My passion for technology started as a child by disassembling devices like the f
 
 On the AWS re/Start programme, my favourite topics were Programming and Networking. Motivated by my passion for technology, I created a website to share articles on Linux (www.roshbeed.com). During the programme, I learnt I could improve my website by migrating it to the cloud. I faced challenges using services not covered in the programme which I overcame by reading the documentation and asking for help. I adopted extracurricular activities (attending meetups of DevOps and Agile methodologies) to proactively learn new skills, beyond the scope of the programme.
 
-I am early in my career. I am learning about the industry as I continue to develop my interpersonal skills and technical skills. I do this to satisfy my love of learning whilst increasing the solutions I can deliver to customers. 
+I am early in my career. I am learning about the industry as I continue to develop my business and technical skills. I do this to satisfy my love of learning whilst increasing the solutions I can deliver to customers. 

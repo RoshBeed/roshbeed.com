@@ -278,4 +278,57 @@ date_format = "Jan 2006"
   date_end = ""
   description = "[![Cloud Practitioner](/media/certs/AWS/AWS-CloudPractitioner-250.png)](https://www.youracclaim.com/badges/72bf2c30-7035-44d9-8b43-3a3c8c9a519d)"
 
+
+[[item]]
+  organization = "Amazon Web Services"
+  organization_url = "https://www.credential.net/c1afc5af-6598-4385-b6c4-3fe54ddb97bc"
+  title = "AWS re/Start Graduate"
+  url = "https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28"
+  certificate_url = ""
+  date_start = "2020-10-19"
+  date_end = ""
+  description = "[![re/Start Graduate](/media/certs/AWS/AWS-reStart-250.png)](https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28)"
+
+
+
+[[item]]
+  organization = "Generation"
+  organization_url = "https://www.princes-trust.org.uk/help-for-young-people/get-job/get-experience"
+  title = "Cloud Support Program"
+  url = "https://www.princes-trust.org.uk/help-for-young-people/get-job/get-experience"
+  certificate_url = ""
+  date_start = "2019-10-18"
+  date_end = ""
+  description = "[![Generation](/media/certs/Generation/generation.png)](/media/certs/Generation/CloudSupportProgram.jpg)"
+
+[[item]]
+  organization = "The Prince's Trust"
+  organization_url = "https://www.princes-trust.org.uk/help-for-young-people/get-job/get-experience"
+  title = "Get into Technology"
+  url = "https://www.princes-trust.org.uk/help-for-young-people/get-job/get-experience"
+  certificate_url = ""
+  date_start = "2019-10-04"
+  date_end = ""
+  description = "[![The Prince's Trust](/media/certs/TPT/princes.png)](/media/certs/TPT/GetIntoTechnology.jpg)"
+
+[[item]]
+  organization = "The Prince's Trust"
+  organization_url = "https://www.princes-trust.org.uk/help-for-young-people/get-job/boost-your-confidence"
+  title = "Team Programme"
+  url = "https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28"
+  certificate_url = ""
+  date_start = "2017-05-12"
+  date_end = ""
+  description = "[![The Prince's Trust](/media/certs/TPT/princes.png)](/media/certs/TPT/TeamProgramme.jpg)"
+
+[[item]]
+  organization = "University of Plymouth"
+  organization_url = "https://www.plymouth.ac.uk/"
+  title = "BSc Computer Science"
+  url = "https://www.youracclaim.com/badges/72bf2c30-7035-44d9-8b43-3a3c8c9a519d"
+  certificate_url = ""
+  date_start = "2016-01-01"
+  date_end = ""
+  description = "[![University of Plymouth](/media/certs/University/plymouth.png)](/media/certs/University/ComputerScience.jpg)"
+
 +++
