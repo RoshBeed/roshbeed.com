@@ -17,6 +17,26 @@ date_format = "Jan 2006"
 #   Leave other parameters empty if not required.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 #   description = "[![txt](img)](url)"
+ 
+[[item]]
+  organization = "HashiCorp"
+  organization_url = "https://www.hashicorp.com/certification"
+  title = "Consul Associate"
+  url = "https://www.youracclaim.com/badges/6af919a6-1c08-491d-9e48-429afb49c07e"
+  certificate_url = ""
+  date_start = "2020-10-26"
+  date_end = ""
+  description = "[![Consul Associate](/media/certs/HashiCorp/Consul-Associate-Badge-250.png)](https://www.youracclaim.com/badges/6af919a6-1c08-491d-9e48-429afb49c07e)"
+
+[[item]]
+  organization = "Amazon Web Services"
+  organization_url = "https://www.credential.net/c1afc5af-6598-4385-b6c4-3fe54ddb97bc"
+  title = "AWS re/Start Graduate"
+  url = "https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28"
+  certificate_url = ""
+  date_start = "2020-10-19"
+  date_end = ""
+  description = "[![re/Start Graduate](/media/certs/AWS/AWS-reStart-250.png)](https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28)"
 
 [[item]]
   organization = "Linux Foundation"
@@ -277,18 +297,6 @@ date_format = "Jan 2006"
   date_start = "2019-11-19"
   date_end = ""
   description = "[![Cloud Practitioner](/media/certs/AWS/AWS-CloudPractitioner-250.png)](https://www.youracclaim.com/badges/72bf2c30-7035-44d9-8b43-3a3c8c9a519d)"
-
-
-[[item]]
-  organization = "Amazon Web Services"
-  organization_url = "https://www.credential.net/c1afc5af-6598-4385-b6c4-3fe54ddb97bc"
-  title = "AWS re/Start Graduate"
-  url = "https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28"
-  certificate_url = ""
-  date_start = "2020-10-19"
-  date_end = ""
-  description = "[![re/Start Graduate](/media/certs/AWS/AWS-reStart-250.png)](https://www.youracclaim.com/badges/396c9362-f3a2-48fc-bd51-69a91379ae28)"
-
 
 
 [[item]]
