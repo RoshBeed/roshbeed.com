@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: DevOps Consultant
+role: Consultant
 
 # Organizations/Affiliations
 organizations:
@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I’m a life-long learner, I have a deep passion for understanding how things work and curious about new ideas and technology.
+bio: I have over five years of experience across architecture, engineering and development. I am looking for customer-facing roles in Solutions Architecture.
 
 #interests:
 #- Cloud Computing
@@ -71,10 +71,24 @@ user_groups:
 - Researchers
 - Visitors
 ---
-I’m a life-long learner, I have a deep passion for understanding how things work and curious about new ideas and technology. I create innovative yet simple solutions to complex problems and support customers throughout their journey into the cloud. I am a driven, self-starter, confident in communicating with technical and business leaders from startups to global brands.
+I have over five years of experience across architecture, engineering and development. I am looking for customer-facing roles in Solutions Architecture.
+
+I am a life-long learner. I have a deep passion for understanding how things work and curious about new ideas and technology. I create innovative yet simple solutions to complex problems and support customers throughout their journey into the cloud. I am confident in building relationships with technical and business leaders from startups to global brands.
 
 My passion for technology started as a child by disassembling devices like the family computer. This passion for understanding how things work developed into a love of learning which led me to study Computer Science at university.
 
-On the AWS re/Start programme, my favourite topics were Programming and Networking. Motivated by my passion for technology, I created a website to share articles on Linux (www.roshbeed.com). During the programme, I learnt I could improve my website by migrating it to the cloud. I faced challenges using services not covered in the programme which I overcame by reading the documentation and asking for help. I adopted extracurricular activities (attending meetups of DevOps and Agile methodologies) to proactively learn new skills, beyond the scope of the programme.
+I was excited to be one of the first students accepted into Amazon’s full-time, classroom-based development and training program AWS re/Start. I was supported by professional mentors and accredited trainers where I completed cloud training featuring scenario-based learning, hands-on labs, and coursework. I adopted extracurricular activities (attending DevOps/Agile meetups) to proactively learn new skills beyond the scope of the program.
 
-I am early in my career. I am learning about the industry as I continue to develop my business and technical skills. I do this to satisfy my love of learning whilst increasing the solutions I can deliver to customers. 
+After completing the AWS re/Start program I joined PA Consulting, a premier AWS consulting partner. My main responsibilities are designing cloud-native architectures for POCs, implementing DevOps CI/CD pipelines and working with healthcare and public sector clients. I am committed to diversity and inclusion within PA by volunteering as a mentor in the Women in Tech mentorship scheme.
+
+I am learning about the industry as I continue to develop my business and technical skills. I do this to satisfy my love of learning whilst increasing the solutions I can deliver to customers. I am searching for solutions architect roles where I can use my creativity to educate customers about new cloud technologies.
+
+- AWS re/Start Graduate – one of the first accepted to AWS’ highly regarded and competitive training program
+- Currently working for an AWS Advanced Consulting Partner, Automation Logic
+- Experience delivering from POC and Pilot, to Production scale deployments in public and private orgs
+- Holder of 28 active cloud certifications across various platforms and technologies
+- Regular attendee of local community events like DevOps/Agile meetups
+- Confident in customer-facing dialogue and public speaking
+- Active social presence and regular content creator in the cloud arena
+- Mentor in a Women in Tech mentorship scheme
+- Mentored by a tenured Senior Solutions Architect at AWS
